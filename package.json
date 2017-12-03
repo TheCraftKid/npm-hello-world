@@ -1,6 +1,6 @@
 {
   "name": "thecraftkid-npm-hello-world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prints \"Hello world!\" to the console output.",
   "main": "index.js",
   "scripts": {
