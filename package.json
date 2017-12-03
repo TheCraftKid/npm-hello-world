@@ -1,0 +1,22 @@
+{
+  "name": "npm-hello-world",
+  "version": "1.0.0",
+  "description": "Prints \"Hello world!\" to the console output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCraftKid/npm-hello-world.git"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "Willie Chalmers III <willieechalmers@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheCraftKid/npm-hello-world/issues"
+  },
+  "homepage": "https://github.com/TheCraftKid/npm-hello-world#readme"
+}
