@@ -1,7 +1,13 @@
 # thecraftkid-npm-hello-world
 A "Hello world" Node module for NPM, built for [Google Code-In 2017](https://codein.withgoogle.com/dashboard/task-instances/6049832672165888/).
 
-### Usage
+## Installation
+After [installing NPM](https://nodejs.org/en/download/) included with Node, run:
+```bash
+npm install thecraftkid-npm-hello-world
+```
+
+## Usage
 This program prints "Hello world!" when called. To use, call the 
 `printHelloWorld` function in the module.
 Example:
