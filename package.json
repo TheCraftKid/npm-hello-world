@@ -4,7 +4,7 @@
   "description": "Prints \"Hello world!\" to the console output.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "mocha tests --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/TheCraftKid/npm-hello-world/issues"
   },
-  "homepage": "https://github.com/TheCraftKid/npm-hello-world#readme"
+  "homepage": "https://github.com/TheCraftKid/npm-hello-world#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.2"
+  }
 }
