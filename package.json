@@ -1,9 +1,10 @@
 {
-  "name": "npm-hello-world",
+  "name": "thecraftkid-npm-hello-world",
   "version": "1.0.0",
   "description": "Prints \"Hello world!\" to the console output.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha tests --reporter spec"
   },
   "repository": {
