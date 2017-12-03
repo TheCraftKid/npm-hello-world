@@ -7,3 +7,7 @@ function printHelloWorld() {
 module.exports = {
   printHelloWorld,
 };
+
+if (require.main === module) {
+  printHelloWorld();
+}
